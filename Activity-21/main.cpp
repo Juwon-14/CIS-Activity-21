@@ -5,24 +5,8 @@
 //  Created by Juwon Hong on 10/14/24.
 //
 #include <iostream>
-
+#include "array.h"
 using namespace std;
-
-// Function to fill the array with values
-void fill(int* numbers, int count) {
-    for (int i = 0; i < count; ++i) {
-        numbers[i] = i + 1;
-    }
-}
-
-// Function to print the sum of the array elements
-void printSum(const int* numbers, int count) {
-    int sum = 0;
-    for (int i = 0; i < count; ++i) {
-        sum += numbers[i];
-    }
-    cout << "Sum of array elements: " << sum << endl;
-}
 
 int main() {
     int count;
