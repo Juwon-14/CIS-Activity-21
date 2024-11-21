@@ -7,7 +7,6 @@
 
 #include <iostream>
 #include "array.h"
-using namespace std;
 
 void fill(int* numbers, int count) {
     for (int i = 0; i < count; ++i) {
@@ -20,5 +19,5 @@ void printSum(const int* numbers, int count) {
     for (int i = 0; i < count; ++i) {
         sum += numbers[i];
     }
-    cout << "Sum of array elements: " << sum << endl;
+    std::cout << "Sum of array elements: " << sum << std::endl;
 }
