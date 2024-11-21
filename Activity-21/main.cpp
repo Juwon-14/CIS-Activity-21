@@ -6,12 +6,11 @@
 //
 #include <iostream>
 #include "array.h"
-using namespace std;
 
 int main() {
     int count;
-    cout << "Enter the size of the array: ";
-    cin >> count;
+    std::cout << "Enter the size of the array: ";
+    std::cin >> count;
 
     // Dynamically allocate memory for the array using raw pointers
     int* numbers = new int[count];
